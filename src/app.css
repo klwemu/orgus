@@ -1,0 +1,32 @@
+/* src/index.css */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+#app {
+	display: flex;
+	height: 100vh;
+	height: 100dvh;
+	flex-direction: column;
+
+	main {
+		flex: 1;
+		margin: 10px;
+		box-sizing: border-box;
+	}
+	canvas {
+		display: block;
+	}
+
+	#cal {
+		height: 100%;
+		width: 100%;
+		box-sizing: border-box;
+		background-color: rgb(246, 218, 253);
+	}
+}
+
+.grid-container {
+	/* height: 100%; */
+	/* border: 2px solid aquamarine; */
+}
